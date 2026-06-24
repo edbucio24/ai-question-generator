@@ -32,7 +32,7 @@ This project is an AI-powered quiz platform that dynamically generates tailored 
 
 # Getting Started
 Clone the repository:
-git clone [https://github.com/edbucio24/ai-question-generator.git]
+git clone https://github.com/edbucio24/ai-question-generator.git
 
 
 # License
