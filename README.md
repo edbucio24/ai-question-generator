@@ -33,6 +33,37 @@ Clone the repository:
 ```bash
 git clone [https://github.com/edbucio24/ai-question-generator.git](https://github.com/edbucio24/ai-question-generator.git)
 cd ai-question-generator
+```
+Setup Backend:
+```bash
+cd backend
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+Setup Frontend:
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+#Environment Setup:
+Create a .env file in your backend directory:
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+CLERK_SECRET_KEY=your_clerk_secret_key_here
+JWT_SECRET_KEY=your_generated_jwt_secret_key_here
+DATABASE_URL=sqlite:///./quiz_app.db
+```
+
+Create a .env.local file in your frontend directory:
+```bash
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
+VITE_API_BASE_URL=http://localhost:8000
+```
 
 # License
 This project is released under the MIT License.
