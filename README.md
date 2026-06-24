@@ -22,3 +22,10 @@ This project is an AI-powered quiz platform that dynamically generates tailored 
 - **AI/LLM:** OpenAI API
 - **Auth:** Clerk
 - **Database/State:** SQLite managed via SQLAlchemy ORM
+
+### Prerequisites
+- **Python 3.9+**
+- **pip**
+- **Node.js (v18.0.0+)**
+- **OpenAI Account:** An active API key to generate the multiple-choice questions.
+- **Clerk Account:** A Clerk application setup to handle user authentication
