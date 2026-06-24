@@ -50,7 +50,7 @@ npm install
 npm run dev
 ```
 
-#Environment Setup:
+# Environment Setup:
 Create a .env file in your backend directory:
 ```bash
 OPENAI_API_KEY=your_openai_api_key_here
