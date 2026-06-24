@@ -7,13 +7,13 @@ This project is an AI-powered quiz platform that dynamically generates tailored 
 
 # Features
 
-- ** Leverages the OpenAI API to construct context-aware, high-quality multiple-choice questions on demand for any topic.
-- ** Tailors the challenge complexity dynamically across **Easy**, **Medium**, and **Hard** presets to match user proficiency.
-- ** Utilizes **Clerk** for robust, seamless user sign-ins, session management, and protected frontend/backend routing.
-- ** Tracks and logs complete user performance metrics, allowing users to review past quizzes and monitor progress over time.
-- ** Enforces structured pacing constraints by calculating and tracking daily user challenge limits.
-- ** Backed by **SQLite** and managed via **SQLAlchemy ORM** to ensure reliable data persistence for quotas, history logs, and user states.
-- ** Built on a modern **React + Vite** architecture to provide instantaneous view updates, seamless state handling, and zero-latency page transitions.
+- Leverages the OpenAI API to construct context-aware, high-quality multiple-choice questions on demand for any topic.
+- Tailors the challenge complexity dynamically across **Easy**, **Medium**, and **Hard** presets to match user proficiency.
+- Utilizes **Clerk** for robust, seamless user sign-ins, session management, and protected frontend/backend routing.
+- Tracks and logs complete user performance metrics, allowing users to review past quizzes and monitor progress over time.
+- Enforces structured pacing constraints by calculating and tracking daily user challenge limits.
+- Backed by **SQLite** and managed via **SQLAlchemy ORM** to ensure reliable data persistence for quotas, history logs, and user states.
+- Built on a modern **React + Vite** architecture to provide instantaneous view updates, seamless state handling, and zero-latency page transitions.
 
 # Tech Stack
 
