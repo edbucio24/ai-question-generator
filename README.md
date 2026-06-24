@@ -23,9 +23,17 @@ This project is an AI-powered quiz platform that dynamically generates tailored 
 - **Auth:** Clerk
 - **Database/State:** SQLite managed via SQLAlchemy ORM
 
-### Prerequisites
+# Prerequisites
 - **Python 3.9+**
 - **pip**
 - **Node.js (v18.0.0+)**
 - **OpenAI Account:** An active API key to generate the multiple-choice questions.
 - **Clerk Account:** A Clerk application setup to handle user authentication
+
+# Getting Started
+Clone the repository:
+git clone [https://github.com/edbucio24/ai-question-generator.git]
+
+
+# License
+This project is released under the MIT License.
