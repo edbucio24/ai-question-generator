@@ -17,7 +17,7 @@ This project is an AI-powered quiz platform that dynamically generates tailored 
 - **Frontend:** React, Vite, Clerk
 - **Backend:** FastAPI, Uvicorn
 - **AI/LLM:** OpenAI API
-- **Auth:** Clerk
+- **Authentication:** Clerk
 - **Database/State:** SQLite managed via SQLAlchemy ORM
 
 # Prerequisites
