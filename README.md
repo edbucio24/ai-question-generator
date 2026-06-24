@@ -4,3 +4,12 @@
 [![Haskell](https://img.shields.io/badge/Language-Haskell-purple.svg)](https://www.haskell.org/)
 
 This project is an AI-powered quiz platform that dynamically generates tailored multiple-choice challenges using OpenAI's API. Built with a fast, modern FastAPI backend and a responsive React/Vite frontend, the application includes robust user authentication via Clerk, tracking system mechanics for daily challenge quotas, difficulty scaling (Easy, Medium, Hard), and a detailed history log to monitor user progress.
+
+
+# 🛠️ Tech Stack
+
+- **Frontend:** React, Vite, Clerk
+- **Backend:** FastAPI, Uvicorn
+- **AI/LLM:** OpenAI API
+- **Auth:** Clerk
+- **Database/State:** SQLite managed via SQLAlchemy ORM
