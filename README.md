@@ -64,6 +64,3 @@ Create a .env.local file in your frontend directory:
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
 VITE_API_BASE_URL=http://localhost:8000
 ```
-
-# License
-This project is released under the MIT License.
